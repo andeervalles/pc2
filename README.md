@@ -37,7 +37,7 @@ jrobles@MacBook-Pro-M1 pc-2 % npx hardhat run scripts/deploy.js
 😀 Finished Göerli Deployment
 </pre>
 # Resultados deployer en Network Mumbai
-
+<pre>
 jrobles@MacBook-Pro-M1 pc-2 % npx hardhat run scripts/deploy.js --network mumbai
 💪 Deploying to: mumbai
 🙏 Deploying Mumbai oriented Contracts
@@ -58,9 +58,9 @@ for verification on the block explorer. Waiting for verification result...
 Successfully verified contract MiPrimerNft on Etherscan.
 https://mumbai.polygonscan.com/address/0x1a1c2Ac41322685747B6A16E1137c42a9f709374#code
 😀 Finished Mumbai Deployment
-
+</pre>
 # Resultados deployer en Network Göerli
-
+<pre>
 jrobles@MacBook-Pro-M1 pc-2 % npx hardhat run scripts/deploy.js --network goerli
 💪 Deploying to: goerli
 🙏 Deploying Göerli oriented Contracts
@@ -103,7 +103,7 @@ for verification on the block explorer. Waiting for verification result...
 Successfully verified contract PublicSale on Etherscan.
 https://goerli.etherscan.io/address/0x1B69618d6B339658def8Ccc3dC97DE71Bd9FaccE#code
 😀 Finished Göerli Deployment
-
+</pre>
 # Práctica Calificada 2 (UTEC) - Blockchain
 
 Estás a punto de lanzar una colección de NFTs para tu comunidad. Escoges la red Polygon (Mumbai) dado que es la red más popular para este tipo de proyectos. Tus usuarios poseen los fondos en la red Ethereum (Goerli) y prefieres que se realice la compra en esta red y luego, cross-chain, acuñar los NFTs en Polygon.
