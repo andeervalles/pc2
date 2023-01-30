@@ -1,4 +1,110 @@
-# Práctica Calificada 2 (UTEC) - Blokchain
+# Resultados deployer mode Local HardHat
+
+jrobles@MacBook-Pro-M1 pc-2 % npx hardhat run scripts/deploy.js                 
+🤡 Deploying to Local Hardhat
+🙏 Deploying Mumbai oriented Contracts
+🥚 Deploying MiPrimerNft
+👉 Variable nftContractName: MiPrimerNft
+👉 Variable nftContractTitle: Mi Primer NFT
+👉 Variable nftSymbol: MPRNFT
+👉 Variable ipfsCID: QmZ7j7GnMeRG81cTfRfFvrv5yafFxFkD5zyXCgMN2LiLCH
+📝 MiPrimerNft Contract Addr: 0xe7f1725E7734CE288F8367e1Bb143E90bb3F0512 🟢 Configure in AutoTask
+📣 MiPrimerNft Proxy Address: 0xe7f1725E7734CE288F8367e1Bb143E90bb3F0512
+📣 MiPrimerNft Impl. Address: 0x5FbDB2315678afecb367f032d93F642f64180aa3
+✅ Address 0x70f26499B849168744F4FB8Fd8cce7b08c458e42 has MINTER_ROLE granted
+🔎 MiPrimerNft can't be verified in Local Hardhat Mode
+😀 Finished Mumbai Deployment
+🙏 Deploying Göerli oriented Contracts
+🥚 Deploying USDCoin
+👉 Variable usdcContractName: USDCoin
+👉 Variable usdcToken: USDCoin
+👉 Variable usdcSymbol: USDC
+📝 USDCoin Contract Addr: 0xCf7Ed3AccA5a467e9e704C703E8D87F634fB0Fc9
+🔎 USDCoin can't be verified in Local Hardhat Mode
+👉 Variable mprtknContractName: MyTokenMiPrimerToken
+🥚 Deploying MyTokenMiPrimerToken
+📝 MyTokenMiPrimerToken Contract Addr: 0x5FC8d32690cc91D4c39d9d3abcBD16989F875707
+📣 MyTokenMiPrimerToken Proxy Address: 0x5FC8d32690cc91D4c39d9d3abcBD16989F875707
+📣 MyTokenMiPrimerToken Impl. Address: 0xDc64a140Aa3E981100a9becA4E685f962f0cF6C9
+🔎 MyTokenMiPrimerToken can't be verified in Local Hardhat Mode
+🥚 Deploying PublicSale
+📝 PublicSale Contract Addr: 0xa513E6E4b8f2a923D98304ec87F64353C4D5C853 🟢 Configure in Sentinel
+📣 PublicSale Proxy Address: 0xa513E6E4b8f2a923D98304ec87F64353C4D5C853
+📣 PublicSale Impl. Address: 0x0165878A594ca255338adfa4d48449f69242Eb8F
+✅ PublicSale MPRTKN Address is: 0x5FC8d32690cc91D4c39d9d3abcBD16989F875707
+✅ PublicSale Gnosis Address is: 0xe592609C24e8dc84C82eDF7A1281a9e15d259BCb
+🔎 PublicSale can't be verified in Local Hardhat Mode
+😀 Finished Göerli Deployment
+
+# Resultados deployer en Network Mumbai
+
+jrobles@MacBook-Pro-M1 pc-2 % npx hardhat run scripts/deploy.js --network mumbai
+💪 Deploying to: mumbai
+🙏 Deploying Mumbai oriented Contracts
+🥚 Deploying MiPrimerNft
+👉 Variable nftContractName: MiPrimerNft
+👉 Variable nftContractTitle: Mi Primer NFT
+👉 Variable nftSymbol: MPRNFT
+👉 Variable ipfsCID: QmZ7j7GnMeRG81cTfRfFvrv5yafFxFkD5zyXCgMN2LiLCH
+📝 MiPrimerNft Contract Addr: 0xb117Ee9e49a662cC9Cad7EFfF050b6305B941807 🟢 Configure in AutoTask
+📣 MiPrimerNft Proxy Address: 0xb117Ee9e49a662cC9Cad7EFfF050b6305B941807
+📣 MiPrimerNft Impl. Address: 0x1a1c2Ac41322685747B6A16E1137c42a9f709374
+✅ Address 0x70f26499B849168744F4FB8Fd8cce7b08c458e42 has MINTER_ROLE granted
+Nothing to compile
+Successfully submitted source code for contract
+contracts/NFT.sol:MiPrimerNft at 0x1a1c2Ac41322685747B6A16E1137c42a9f709374
+for verification on the block explorer. Waiting for verification result...
+
+Successfully verified contract MiPrimerNft on Etherscan.
+https://mumbai.polygonscan.com/address/0x1a1c2Ac41322685747B6A16E1137c42a9f709374#code
+😀 Finished Mumbai Deployment
+
+# Resultados deployer en Network Göerli
+
+jrobles@MacBook-Pro-M1 pc-2 % npx hardhat run scripts/deploy.js --network goerli
+💪 Deploying to: goerli
+🙏 Deploying Göerli oriented Contracts
+🥚 Deploying USDCoin
+👉 Variable usdcContractName: USDCoin
+👉 Variable usdcToken: USDCoin
+👉 Variable usdcSymbol: USDC
+USDCoin - Imp: 0xE508E7a7d48b71540e5f93BD8f5FaC272Ec3d640
+📝 USDCoin Contract Addr: 0xE508E7a7d48b71540e5f93BD8f5FaC272Ec3d640
+Nothing to compile
+Successfully submitted source code for contract
+contracts/USDCoin.sol:USDCoin at 0xE508E7a7d48b71540e5f93BD8f5FaC272Ec3d640
+for verification on the block explorer. Waiting for verification result...
+
+Successfully verified contract USDCoin on Etherscan.
+https://goerli.etherscan.io/address/0xE508E7a7d48b71540e5f93BD8f5FaC272Ec3d640#code
+👉 Variable mprtknContractName: MyTokenMiPrimerToken
+🥚 Deploying MyTokenMiPrimerToken
+📝 MyTokenMiPrimerToken Contract Addr: 0x021C41C433e840053a60390dEaF59170E6171106
+📣 MyTokenMiPrimerToken Proxy Address: 0x021C41C433e840053a60390dEaF59170E6171106
+📣 MyTokenMiPrimerToken Impl. Address: 0x86d4CF8b1217eE4FfbF04c35820bfF9DD9E2252f
+Compiled 37 Solidity files successfully
+Successfully submitted source code for contract
+contracts/MiPrimerToken.sol:MyTokenMiPrimerToken at 0x86d4CF8b1217eE4FfbF04c35820bfF9DD9E2252f
+for verification on the block explorer. Waiting for verification result...
+
+Successfully verified contract MyTokenMiPrimerToken on Etherscan.
+https://goerli.etherscan.io/address/0x86d4CF8b1217eE4FfbF04c35820bfF9DD9E2252f#code
+🥚 Deploying PublicSale
+📝 PublicSale Contract Addr: 0xDc7C82dcdAAab95f12a259da3066f02D72C0E297 🟢 Configure in Sentinel
+📣 PublicSale Proxy Address: 0xDc7C82dcdAAab95f12a259da3066f02D72C0E297
+📣 PublicSale Impl. Address: 0x1B69618d6B339658def8Ccc3dC97DE71Bd9FaccE
+✅ PublicSale MPRTKN Address is: 0x021C41C433e840053a60390dEaF59170E6171106
+✅ PublicSale Gnosis Address is: 0xe592609C24e8dc84C82eDF7A1281a9e15d259BCb
+Nothing to compile
+Successfully submitted source code for contract
+contracts/PublicSale.sol:PublicSale at 0x1B69618d6B339658def8Ccc3dC97DE71Bd9FaccE
+for verification on the block explorer. Waiting for verification result...
+
+Successfully verified contract PublicSale on Etherscan.
+https://goerli.etherscan.io/address/0x1B69618d6B339658def8Ccc3dC97DE71Bd9FaccE#code
+😀 Finished Göerli Deployment
+
+# Práctica Calificada 2 (UTEC) - Blockchain
 
 Estás a punto de lanzar una colección de NFTs para tu comunidad. Escoges la red Polygon (Mumbai) dado que es la red más popular para este tipo de proyectos. Tus usuarios poseen los fondos en la red Ethereum (Goerli) y prefieres que se realice la compra en esta red y luego, cross-chain, acuñar los NFTs en Polygon.
 
