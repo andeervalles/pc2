@@ -35,7 +35,7 @@ function initSCsGoerli() {
   console.log("PublicSale Contract");
   pubSContract = new Contract(pubSContractAdd, publicSaleAbi.abi, provider);
   console.log(pubSContract);
-  
+
 }
 
 // OPTIONAL
@@ -56,98 +56,153 @@ async function initSCsMumbai() {
   //console.log ("balance:", res);
 }
 
-function addListenerConnectToMetamask(){
+function addListenerConnectToMetamask() {
   console.log("Adding Listener to Connect Button");
   var connectButton = document.getElementById("connect");
   connectButton.addEventListener("click", async function () {
     console.log("Connect to Metamask Clicked");
-    if (window.ethereum){
-      document.getElementById("connectedAddress").innerHTML="";
-      document.getElementById("connectedChain").innerHTML="";
-      document.getElementById("connectError").innerHTML="";
-      document.getElementById("usdcBalance").innerHTML="";
-      document.getElementById("miPrimerTknBalance").innerHTML="";
-    account="";
-    signer="";
-    await ethereum
-    .request ({method: "eth_requestAccounts"})
-    .then((result) => {
-      console.log("Result:",result);
-      [account]=result;
-      console.log("Cuenta:",account);
-      document.getElementById("connectedAddress").innerHTML=account;
-      document.getElementById("connectedChain").innerHTML=ethereum.chainId;
-      signer = provider.getSigner(account);
-      })
-    .catch((err) => {
-      document.getElementById("connectError").innerHTML="Error: "+err.message;
-    });
+    if (window.ethereum) {
+      document.getElementById("connectedAddress").innerHTML = "";
+      document.getElementById("connectedChain").innerHTML = "";
+      document.getElementById("connectError").innerHTML = "";
+      document.getElementById("usdcBalance").innerHTML = "";
+      document.getElementById("miPrimerTknBalance").innerHTML = "";
+      account = "";
+      signer = "";
+      await ethereum
+        .request({ method: "eth_requestAccounts" })
+        .then((result) => {
+          console.log("Result:", result);
+          [account] = result;
+          console.log("Cuenta:", account);
+          document.getElementById("connectedAddress").innerHTML = account;
+          document.getElementById("connectedChain").innerHTML = ethereum.chainId;
+          signer = provider.getSigner(account);
+        })
+        .catch((err) => {
+          document.getElementById("connectError").innerHTML = "Error: " + err.message;
+        });
     }
   });
 }
 
-function addListenerUSDCbalance(){
+function addListenerUSDCbalance() {
   console.log("Adding Listener for USDC Balance");
   var usdcUpdateButton = document.getElementById("usdcUpdate");
   usdcUpdateButton.addEventListener("click", async function () {
     console.log("USDC Balance Button Clicked");
     var balance = await usdcTkContract.balanceOf(account);
-    document.getElementById("usdcBalance").innerHTML=ethers.utils.formatUnits(balance,6);
+    document.getElementById("usdcBalance").innerHTML = ethers.utils.formatUnits(balance, 6);
   })
 }
 
-function addListenerMPTKNbalance(){
+function addListenerMPTKNbalance() {
   console.log("Adding Listener for MPTKN Balance");
   var mptknUpdateButton = document.getElementById("miPrimerTknUpdate");
   mptknUpdateButton.addEventListener("click", async function () {
     console.log("MPTKN Balance Button Clicked");
     var balance = await miPrTokenContract.balanceOf(account);
-    document.getElementById("miPrimerTknBalance").innerHTML=ethers.utils.formatUnits(balance,18);
+    document.getElementById("miPrimerTknBalance").innerHTML = ethers.utils.formatUnits(balance, 18);
   })
 }
 
-function addListenerApprove(){
+function addListenerApprove() {
   console.log("Adding Listener for MPTKN Balance");
   var approveButton = document.getElementById("approveButton");
   approveButton.addEventListener("click", async function () {
     console.log("Approve Button Clicked");
-    document.getElementById("approveError").innerHTML="";
+    document.getElementById("approveError").innerHTML = "";
     var amount = document.getElementById("approveInput").value;
-    console.log("Aprobando:",amount);
-    var fullAmount=`${amount}000000000000000000`;
-    console.log("BigNumber:",fullAmount);
-    var txAmount = await BigNumber.from(fullAmount);
+    console.log("Aprobando:", amount);
+    var fullAmount = `${amount}000000000000000000`;
+    console.log("BigNumber:", fullAmount);
+    var txAmount = BigNumber.from(fullAmount);
     console.log("Iniciando TX. Espere...");
     var txApproval = await miPrTokenContract
       .connect(signer)
-      .approve(pubSContractAdd,txAmount)
+      .approve(pubSContractAdd, txAmount)
       .catch((err) => {
-        document.getElementById("approveError").innerHTML="Error: "+err.message;
+        document.getElementById("approveError").innerHTML = "Error: " + err.message;
       });
     var response = await txApproval.wait(1);
     console.log(response.transactionHash);
   })
 }
 
-function addListenerPurchaseById(){
+function addListenerPurchaseById() {
   console.log("Adding Listener for Purchase Button");
   var purchaseButton = document.getElementById("purchaseButton");
   purchaseButton.addEventListener("click", async function () {
     console.log("Purchase By Id Button Clicked");
-    document.getElementById("purchaseError").innerHTML="";
+    document.getElementById("purchaseError").innerHTML = "";
     var tokenId = document.getElementById("purchaseInput").value;
-    console.log("Token:",tokenId);
+    console.log("Token:", tokenId);
     console.log("Iniciando TX. Espere...");
+    if (signer && tokenId>0 && tokenId<31){
     var txPurchase = await pubSContract
       .connect(signer)
       .purchaseNftById(tokenId)
       .catch((err) => {
-        document.getElementById("purchaseError").innerHTML="Error: "+err.message;
+        document.getElementById("purchaseError").innerHTML = "Error: " + err.message;
       });
     var response = await txPurchase.wait(1);
     console.log(response.transactionHash);
+    }
+    else{
+      document.getElementById("purchaseError").innerHTML = "Error: Debe iniciar sesión y colocar un Token Válido";
+    }
   })
 }
+
+function addListenerPurchaseWithEth() {
+  console.log("Adding Listener for Purchase With Eth Button");
+  var purchaseEthButton = document.getElementById("purchaseEthButton");
+  purchaseEthButton.addEventListener("click", async function () {
+    console.log("Purchase With Eth Button Clicked");
+    document.getElementById("purchaseEthError").innerHTML = "";
+    console.log("Iniciando TX. Espere...");
+    if (signer){
+    var txPurchaseWithEth = await pubSContract
+      .connect(signer)
+      .depositEthForARandomNft({
+        value: BigNumber.from("10000000000000000")
+      })
+      .catch((err) => {
+        document.getElementById("purchaseEthError").innerHTML = "Error: " + err.message;
+      });
+    var response = await txPurchaseWithEth.wait(1);
+    console.log(response.transactionHash);
+    }
+    else{
+      document.getElementById("purchaseEthError").innerHTML = "Error: Debe iniciar sesión";
+    }
+  })
+}
+
+function addListenerSendEth() {
+  console.log("Adding Listener for Send Ether Button");
+  var sendEtherButton = document.getElementById("sendEtherButton");
+  sendEtherButton.addEventListener("click", async function () {
+    console.log("Send Ether Button Clicked");
+    document.getElementById("sendEtherError").innerHTML = "";
+    console.log("Iniciando TX. Espere...");
+    if (signer) {
+      var txSendEther = await signer.sendTransaction({
+        to: pubSContractAdd,
+        value: BigNumber.from("10000000000000000")
+      })
+        .catch((err) => {
+          document.getElementById("sendEtherError").innerHTML = "Error: " + err.message;
+        });
+      var response = await txSendEther.wait(1);
+      console.log(response.transactionHash);
+    }
+    else {
+      document.getElementById("sendEtherError").innerHTML = "Error: Debe iniciar sesión";
+    }
+  })
+}
+
 
 function setUpListeners() {
   // Connect to Metamask
@@ -156,6 +211,8 @@ function setUpListeners() {
   addListenerMPTKNbalance();
   addListenerApprove();
   addListenerPurchaseById();
+  addListenerPurchaseWithEth();
+  addListenerSendEth();
 }
 
 
