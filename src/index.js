@@ -203,7 +203,6 @@ function addListenerSendEth() {
   })
 }
 
-
 function setUpListeners() {
   // Connect to Metamask
   addListenerConnectToMetamask();
@@ -218,6 +217,7 @@ function setUpListeners() {
 
 function setUpEventsContracts() {
   // nftTknContract.on
+  
 }
 
 async function setUp() {
