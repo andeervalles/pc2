@@ -1,22 +1,27 @@
 # DATOS PRINCIPALES:
 
-<ol>
-  <li>OZD Relayer: 0x70f26499B849168744F4FB8Fd8cce7b08c458e42
-    </ol>
-
-Gnosis Safe: 0xe592609C24e8dc84C82eDF7A1281a9e15d259BCb
-
-IPFS
-Metadata: QmZ7j7GnMeRG81cTfRfFvrv5yafFxFkD5zyXCgMN2LiLCH
-Images: QmUgrq82ET5y6odKUB1Q5HxzGTNdbkkqWNpf3kbsnTVR1z
-
-Mumbai:
-📝 MiPrimerNft Contract Addr: 0xb117Ee9e49a662cC9Cad7EFfF050b6305B941807
-
-Goerli:
-📝 USDCoin Contract Addr: 0xE508E7a7d48b71540e5f93BD8f5FaC272Ec3d640
-📝 MyTokenMiPrimerToken Contract Addr: 0x021C41C433e840053a60390dEaF59170E6171106
-📝 PublicSale Contract Addr: 0xa513E6E4b8f2a923D98304ec87F64353C4D5C853
+<ul>
+  <li>OZD Relayer: 0x70f26499B849168744F4FB8Fd8cce7b08c458e42</li>
+  <li>Gnosis Safe: 0xe592609C24e8dc84C82eDF7A1281a9e15d259BCb</li>
+  <li>IPFS
+    <ul>
+      <li>Metadata: QmZ7j7GnMeRG81cTfRfFvrv5yafFxFkD5zyXCgMN2LiLCH</li>
+      <li>Images: QmUgrq82ET5y6odKUB1Q5HxzGTNdbkkqWNpf3kbsnTVR1z</li>
+    </ul>
+  </li>
+  <li>MUMBAI
+    <ul>
+      <li>📝 MiPrimerNft Contract Addr: 0xb117Ee9e49a662cC9Cad7EFfF050b6305B941807</li>
+    </ul>
+  </li>
+  <li>GÖERLI
+    <ul>
+      <li>📝 USDCoin Contract Addr: 0xE508E7a7d48b71540e5f93BD8f5FaC272Ec3d640</li>
+      <li>📝 MyTokenMiPrimerToken Contract Addr: 0x021C41C433e840053a60390dEaF59170E6171106</li>
+      <li>📝 PublicSale Contract Addr: 0xa513E6E4b8f2a923D98304ec87F64353C4D5C853</li>
+    </ul>
+  </li>
+</ul>
 
 # Resultados deployer mode Local HardHat (No publicado en blockchains)
 <pre>
