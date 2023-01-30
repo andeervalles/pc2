@@ -18,7 +18,7 @@
     <ul>
       <li>📝 USDCoin Contract Addr: 0xE508E7a7d48b71540e5f93BD8f5FaC272Ec3d640</li>
       <li>📝 MyTokenMiPrimerToken Contract Addr: 0x021C41C433e840053a60390dEaF59170E6171106</li>
-      <li>📝 PublicSale Contract Addr: 0xa513E6E4b8f2a923D98304ec87F64353C4D5C853</li>
+      <li>📝 PublicSale Contract Addr: 0xDc7C82dcdAAab95f12a259da3066f02D72C0E297</li>
     </ul>
   </li>
 </ul>
