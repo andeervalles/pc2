@@ -1,5 +1,5 @@
 # Resultados deployer mode Local HardHat
-
+<pre>
 jrobles@MacBook-Pro-M1 pc-2 % npx hardhat run scripts/deploy.js                 
 🤡 Deploying to Local Hardhat
 🙏 Deploying Mumbai oriented Contracts
@@ -35,7 +35,7 @@ jrobles@MacBook-Pro-M1 pc-2 % npx hardhat run scripts/deploy.js
 ✅ PublicSale Gnosis Address is: 0xe592609C24e8dc84C82eDF7A1281a9e15d259BCb
 🔎 PublicSale can't be verified in Local Hardhat Mode
 😀 Finished Göerli Deployment
-
+</pre>
 # Resultados deployer en Network Mumbai
 
 jrobles@MacBook-Pro-M1 pc-2 % npx hardhat run scripts/deploy.js --network mumbai
