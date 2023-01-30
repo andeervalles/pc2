@@ -6,12 +6,16 @@
     <title>
         <%= htmlWebpackPlugin.options.title %>
     </title>
+    <link rel="icon" href="data:;base64,iVBORw0KGgo=">
 </head>
 
 <body>
     <div>
         <button id="connect">Conectar con Metamask</button>
     </div>
+    <div style="color: green;">Account: <span id="connectedAddress"></span></div>
+    <div style="color: green;">Chain: <span id="connectedChain"></span></div>
+    <div style="color: red;"><span id="connectError"></span></div>
     </br>
     <div>
         <button id="switch">Cambiar a Mumbai</button>

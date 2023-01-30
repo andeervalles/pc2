@@ -1,0 +1,32 @@
+{
+  "name": "Cuy Moche NFT COMUN #6",
+  "description": "NFT MOCHE collection by Pachacuy.io inspired by the fertility huacos of the Peruvian Moche culture",
+  "image": "ipfs://QmUgrq82ET5y6odKUB1Q5HxzGTNdbkkqWNpf3kbsnTVR1z/6.png",
+  "edition": 6,
+  "attributes": [
+    {
+      "trait_type": "MANTO",
+      "value": "MANTO NASCA"
+    },
+    {
+      "trait_type": "BANCO",
+      "value": "HUACO"
+    },
+    {
+      "trait_type": "CUY",
+      "value": "CUY MARRON"
+    },
+    {
+      "trait_type": "CHULLO",
+      "value": "FORASTERO"
+    },
+    {
+      "trait_type": "CARA",
+      "value": "OJOS BASE"
+    },
+    {
+      "trait_type": "GRUPO",
+      "value": "COMUN"
+    }
+  ]
+}

@@ -1,0 +1,1003 @@
+{
+  "id": 5,
+  "network": "Goerli",
+  "deployments": {
+    "0x657b7859f600aEF4F703c1D1d691f723EA291cFc": {
+      "date": "2023-01-20T11:46:37.318Z",
+      "contractName": "PublicSale",
+      "fork": "london",
+      "implementationAddress": "0x02D881f87C728C7b140fDEc414C6571D071BE04E",
+      "layout": {
+        "storage": [
+          {
+            "astId": 804,
+            "contract": "contracts/PublicSale.sol:PublicSale",
+            "label": "_initialized",
+            "offset": 0,
+            "slot": "0",
+            "type": "t_uint8"
+          },
+          {
+            "astId": 807,
+            "contract": "contracts/PublicSale.sol:PublicSale",
+            "label": "_initializing",
+            "offset": 1,
+            "slot": "0",
+            "type": "t_bool"
+          },
+          {
+            "astId": 1632,
+            "contract": "contracts/PublicSale.sol:PublicSale",
+            "label": "__gap",
+            "offset": 0,
+            "slot": "1",
+            "type": "t_array(t_uint256)50_storage"
+          },
+          {
+            "astId": 1123,
+            "contract": "contracts/PublicSale.sol:PublicSale",
+            "label": "_paused",
+            "offset": 0,
+            "slot": "51",
+            "type": "t_bool"
+          },
+          {
+            "astId": 1228,
+            "contract": "contracts/PublicSale.sol:PublicSale",
+            "label": "__gap",
+            "offset": 0,
+            "slot": "52",
+            "type": "t_array(t_uint256)49_storage"
+          },
+          {
+            "astId": 1911,
+            "contract": "contracts/PublicSale.sol:PublicSale",
+            "label": "__gap",
+            "offset": 0,
+            "slot": "101",
+            "type": "t_array(t_uint256)50_storage"
+          },
+          {
+            "astId": 39,
+            "contract": "contracts/PublicSale.sol:PublicSale",
+            "label": "_roles",
+            "offset": 0,
+            "slot": "151",
+            "type": "t_mapping(t_bytes32,t_struct(RoleData)34_storage)"
+          },
+          {
+            "astId": 334,
+            "contract": "contracts/PublicSale.sol:PublicSale",
+            "label": "__gap",
+            "offset": 0,
+            "slot": "152",
+            "type": "t_array(t_uint256)49_storage"
+          },
+          {
+            "astId": 786,
+            "contract": "contracts/PublicSale.sol:PublicSale",
+            "label": "__gap",
+            "offset": 0,
+            "slot": "201",
+            "type": "t_array(t_uint256)50_storage"
+          },
+          {
+            "astId": 1101,
+            "contract": "contracts/PublicSale.sol:PublicSale",
+            "label": "__gap",
+            "offset": 0,
+            "slot": "251",
+            "type": "t_array(t_uint256)50_storage"
+          },
+          {
+            "astId": 3684,
+            "contract": "contracts/PublicSale.sol:PublicSale",
+            "label": "isSoldToken",
+            "offset": 0,
+            "slot": "301",
+            "type": "t_array(t_bool)30_storage"
+          },
+          {
+            "astId": 3686,
+            "contract": "contracts/PublicSale.sol:PublicSale",
+            "label": "soldTokens",
+            "offset": 0,
+            "slot": "302",
+            "type": "t_uint256"
+          },
+          {
+            "astId": 3689,
+            "contract": "contracts/PublicSale.sol:PublicSale",
+            "label": "miPrimerToken",
+            "offset": 0,
+            "slot": "303",
+            "type": "t_contract(IERC20Upgradeable)1307"
+          },
+          {
+            "astId": 3691,
+            "contract": "contracts/PublicSale.sol:PublicSale",
+            "label": "mprtknAddress",
+            "offset": 0,
+            "slot": "304",
+            "type": "t_address"
+          },
+          {
+            "astId": 3699,
+            "contract": "contracts/PublicSale.sol:PublicSale",
+            "label": "gnosisSafeWallet",
+            "offset": 0,
+            "slot": "305",
+            "type": "t_address"
+          }
+        ],
+        "types": {
+          "t_address": {
+            "encoding": "inplace",
+            "label": "address",
+            "numberOfBytes": "20"
+          },
+          "t_array(t_bool)30_storage": {
+            "base": "t_bool",
+            "encoding": "inplace",
+            "label": "bool[30]",
+            "numberOfBytes": "32"
+          },
+          "t_array(t_uint256)49_storage": {
+            "base": "t_uint256",
+            "encoding": "inplace",
+            "label": "uint256[49]",
+            "numberOfBytes": "1568"
+          },
+          "t_array(t_uint256)50_storage": {
+            "base": "t_uint256",
+            "encoding": "inplace",
+            "label": "uint256[50]",
+            "numberOfBytes": "1600"
+          },
+          "t_bool": {
+            "encoding": "inplace",
+            "label": "bool",
+            "numberOfBytes": "1"
+          },
+          "t_bytes32": {
+            "encoding": "inplace",
+            "label": "bytes32",
+            "numberOfBytes": "32"
+          },
+          "t_contract(IERC20Upgradeable)1307": {
+            "encoding": "inplace",
+            "label": "contract IERC20Upgradeable",
+            "numberOfBytes": "20"
+          },
+          "t_mapping(t_address,t_bool)": {
+            "encoding": "mapping",
+            "key": "t_address",
+            "label": "mapping(address => bool)",
+            "numberOfBytes": "32",
+            "value": "t_bool"
+          },
+          "t_mapping(t_bytes32,t_struct(RoleData)34_storage)": {
+            "encoding": "mapping",
+            "key": "t_bytes32",
+            "label": "mapping(bytes32 => struct AccessControlUpgradeable.RoleData)",
+            "numberOfBytes": "32",
+            "value": "t_struct(RoleData)34_storage"
+          },
+          "t_struct(RoleData)34_storage": {
+            "encoding": "inplace",
+            "label": "struct AccessControlUpgradeable.RoleData",
+            "members": [
+              {
+                "astId": 31,
+                "contract": "contracts/PublicSale.sol:PublicSale",
+                "label": "members",
+                "offset": 0,
+                "slot": "0",
+                "type": "t_mapping(t_address,t_bool)"
+              },
+              {
+                "astId": 33,
+                "contract": "contracts/PublicSale.sol:PublicSale",
+                "label": "adminRole",
+                "offset": 0,
+                "slot": "1",
+                "type": "t_bytes32"
+              }
+            ],
+            "numberOfBytes": "64"
+          },
+          "t_uint256": {
+            "encoding": "inplace",
+            "label": "uint256",
+            "numberOfBytes": "32"
+          },
+          "t_uint8": {
+            "encoding": "inplace",
+            "label": "uint8",
+            "numberOfBytes": "1"
+          }
+        }
+      }
+    },
+    "0x2318EE787732e7374aE3Ee1Be924Fda079369b63": {
+      "date": "2023-01-20T16:44:38.118Z",
+      "contractName": "MiPrimerToken",
+      "fork": "london",
+      "implementationAddress": "0x4da5799BA6369749D0908dc06B7a80D126B89BA0",
+      "layout": {
+        "storage": [
+          {
+            "astId": 527,
+            "contract": "contracts/MiPrimerToken.sol:MiPrimerToken",
+            "label": "_initialized",
+            "offset": 0,
+            "slot": "0",
+            "type": "t_uint8"
+          },
+          {
+            "astId": 530,
+            "contract": "contracts/MiPrimerToken.sol:MiPrimerToken",
+            "label": "_initializing",
+            "offset": 1,
+            "slot": "0",
+            "type": "t_bool"
+          },
+          {
+            "astId": 1865,
+            "contract": "contracts/MiPrimerToken.sol:MiPrimerToken",
+            "label": "__gap",
+            "offset": 0,
+            "slot": "1",
+            "type": "t_array(t_uint256)50_storage"
+          },
+          {
+            "astId": 844,
+            "contract": "contracts/MiPrimerToken.sol:MiPrimerToken",
+            "label": "_balances",
+            "offset": 0,
+            "slot": "51",
+            "type": "t_mapping(t_address,t_uint256)"
+          },
+          {
+            "astId": 850,
+            "contract": "contracts/MiPrimerToken.sol:MiPrimerToken",
+            "label": "_allowances",
+            "offset": 0,
+            "slot": "52",
+            "type": "t_mapping(t_address,t_mapping(t_address,t_uint256))"
+          },
+          {
+            "astId": 852,
+            "contract": "contracts/MiPrimerToken.sol:MiPrimerToken",
+            "label": "_totalSupply",
+            "offset": 0,
+            "slot": "53",
+            "type": "t_uint256"
+          },
+          {
+            "astId": 854,
+            "contract": "contracts/MiPrimerToken.sol:MiPrimerToken",
+            "label": "_name",
+            "offset": 0,
+            "slot": "54",
+            "type": "t_string_storage"
+          },
+          {
+            "astId": 856,
+            "contract": "contracts/MiPrimerToken.sol:MiPrimerToken",
+            "label": "_symbol",
+            "offset": 0,
+            "slot": "55",
+            "type": "t_string_storage"
+          },
+          {
+            "astId": 1436,
+            "contract": "contracts/MiPrimerToken.sol:MiPrimerToken",
+            "label": "__gap",
+            "offset": 0,
+            "slot": "56",
+            "type": "t_array(t_uint256)45_storage"
+          },
+          {
+            "astId": 10,
+            "contract": "contracts/MiPrimerToken.sol:MiPrimerToken",
+            "label": "_owner",
+            "offset": 0,
+            "slot": "101",
+            "type": "t_address"
+          },
+          {
+            "astId": 130,
+            "contract": "contracts/MiPrimerToken.sol:MiPrimerToken",
+            "label": "__gap",
+            "offset": 0,
+            "slot": "102",
+            "type": "t_array(t_uint256)49_storage"
+          },
+          {
+            "astId": 509,
+            "contract": "contracts/MiPrimerToken.sol:MiPrimerToken",
+            "label": "__gap",
+            "offset": 0,
+            "slot": "151",
+            "type": "t_array(t_uint256)50_storage"
+          },
+          {
+            "astId": 824,
+            "contract": "contracts/MiPrimerToken.sol:MiPrimerToken",
+            "label": "__gap",
+            "offset": 0,
+            "slot": "201",
+            "type": "t_array(t_uint256)50_storage"
+          }
+        ],
+        "types": {
+          "t_address": {
+            "encoding": "inplace",
+            "label": "address",
+            "numberOfBytes": "20"
+          },
+          "t_array(t_uint256)45_storage": {
+            "base": "t_uint256",
+            "encoding": "inplace",
+            "label": "uint256[45]",
+            "numberOfBytes": "1440"
+          },
+          "t_array(t_uint256)49_storage": {
+            "base": "t_uint256",
+            "encoding": "inplace",
+            "label": "uint256[49]",
+            "numberOfBytes": "1568"
+          },
+          "t_array(t_uint256)50_storage": {
+            "base": "t_uint256",
+            "encoding": "inplace",
+            "label": "uint256[50]",
+            "numberOfBytes": "1600"
+          },
+          "t_bool": {
+            "encoding": "inplace",
+            "label": "bool",
+            "numberOfBytes": "1"
+          },
+          "t_mapping(t_address,t_mapping(t_address,t_uint256))": {
+            "encoding": "mapping",
+            "key": "t_address",
+            "label": "mapping(address => mapping(address => uint256))",
+            "numberOfBytes": "32",
+            "value": "t_mapping(t_address,t_uint256)"
+          },
+          "t_mapping(t_address,t_uint256)": {
+            "encoding": "mapping",
+            "key": "t_address",
+            "label": "mapping(address => uint256)",
+            "numberOfBytes": "32",
+            "value": "t_uint256"
+          },
+          "t_string_storage": {
+            "encoding": "bytes",
+            "label": "string",
+            "numberOfBytes": "32"
+          },
+          "t_uint256": {
+            "encoding": "inplace",
+            "label": "uint256",
+            "numberOfBytes": "32"
+          },
+          "t_uint8": {
+            "encoding": "inplace",
+            "label": "uint8",
+            "numberOfBytes": "1"
+          }
+        }
+      }
+    },
+    "0x96dc986B020d1434757aAa746Ad6a92f303cdE9a": {
+      "date": "2023-01-20T17:11:50.692Z",
+      "contractName": "PublicSale",
+      "fork": "london",
+      "implementationAddress": "0xb96170FeaBea6399E8D56F7445D4E36F60C133ee",
+      "layout": {
+        "storage": [
+          {
+            "astId": 804,
+            "contract": "contracts/PublicSale.sol:PublicSale",
+            "label": "_initialized",
+            "offset": 0,
+            "slot": "0",
+            "type": "t_uint8"
+          },
+          {
+            "astId": 807,
+            "contract": "contracts/PublicSale.sol:PublicSale",
+            "label": "_initializing",
+            "offset": 1,
+            "slot": "0",
+            "type": "t_bool"
+          },
+          {
+            "astId": 1632,
+            "contract": "contracts/PublicSale.sol:PublicSale",
+            "label": "__gap",
+            "offset": 0,
+            "slot": "1",
+            "type": "t_array(t_uint256)50_storage"
+          },
+          {
+            "astId": 1123,
+            "contract": "contracts/PublicSale.sol:PublicSale",
+            "label": "_paused",
+            "offset": 0,
+            "slot": "51",
+            "type": "t_bool"
+          },
+          {
+            "astId": 1228,
+            "contract": "contracts/PublicSale.sol:PublicSale",
+            "label": "__gap",
+            "offset": 0,
+            "slot": "52",
+            "type": "t_array(t_uint256)49_storage"
+          },
+          {
+            "astId": 1911,
+            "contract": "contracts/PublicSale.sol:PublicSale",
+            "label": "__gap",
+            "offset": 0,
+            "slot": "101",
+            "type": "t_array(t_uint256)50_storage"
+          },
+          {
+            "astId": 39,
+            "contract": "contracts/PublicSale.sol:PublicSale",
+            "label": "_roles",
+            "offset": 0,
+            "slot": "151",
+            "type": "t_mapping(t_bytes32,t_struct(RoleData)34_storage)"
+          },
+          {
+            "astId": 334,
+            "contract": "contracts/PublicSale.sol:PublicSale",
+            "label": "__gap",
+            "offset": 0,
+            "slot": "152",
+            "type": "t_array(t_uint256)49_storage"
+          },
+          {
+            "astId": 786,
+            "contract": "contracts/PublicSale.sol:PublicSale",
+            "label": "__gap",
+            "offset": 0,
+            "slot": "201",
+            "type": "t_array(t_uint256)50_storage"
+          },
+          {
+            "astId": 1101,
+            "contract": "contracts/PublicSale.sol:PublicSale",
+            "label": "__gap",
+            "offset": 0,
+            "slot": "251",
+            "type": "t_array(t_uint256)50_storage"
+          },
+          {
+            "astId": 3684,
+            "contract": "contracts/PublicSale.sol:PublicSale",
+            "label": "isSoldToken",
+            "offset": 0,
+            "slot": "301",
+            "type": "t_array(t_bool)30_storage"
+          },
+          {
+            "astId": 3686,
+            "contract": "contracts/PublicSale.sol:PublicSale",
+            "label": "soldTokens",
+            "offset": 0,
+            "slot": "302",
+            "type": "t_uint256"
+          },
+          {
+            "astId": 3689,
+            "contract": "contracts/PublicSale.sol:PublicSale",
+            "label": "miPrimerToken",
+            "offset": 0,
+            "slot": "303",
+            "type": "t_contract(IERC20Upgradeable)1307"
+          },
+          {
+            "astId": 3691,
+            "contract": "contracts/PublicSale.sol:PublicSale",
+            "label": "mprtknAddress",
+            "offset": 0,
+            "slot": "304",
+            "type": "t_address"
+          },
+          {
+            "astId": 3699,
+            "contract": "contracts/PublicSale.sol:PublicSale",
+            "label": "gnosisSafeWallet",
+            "offset": 0,
+            "slot": "305",
+            "type": "t_address"
+          }
+        ],
+        "types": {
+          "t_address": {
+            "encoding": "inplace",
+            "label": "address",
+            "numberOfBytes": "20"
+          },
+          "t_array(t_bool)30_storage": {
+            "base": "t_bool",
+            "encoding": "inplace",
+            "label": "bool[30]",
+            "numberOfBytes": "32"
+          },
+          "t_array(t_uint256)49_storage": {
+            "base": "t_uint256",
+            "encoding": "inplace",
+            "label": "uint256[49]",
+            "numberOfBytes": "1568"
+          },
+          "t_array(t_uint256)50_storage": {
+            "base": "t_uint256",
+            "encoding": "inplace",
+            "label": "uint256[50]",
+            "numberOfBytes": "1600"
+          },
+          "t_bool": {
+            "encoding": "inplace",
+            "label": "bool",
+            "numberOfBytes": "1"
+          },
+          "t_bytes32": {
+            "encoding": "inplace",
+            "label": "bytes32",
+            "numberOfBytes": "32"
+          },
+          "t_contract(IERC20Upgradeable)1307": {
+            "encoding": "inplace",
+            "label": "contract IERC20Upgradeable",
+            "numberOfBytes": "20"
+          },
+          "t_mapping(t_address,t_bool)": {
+            "encoding": "mapping",
+            "key": "t_address",
+            "label": "mapping(address => bool)",
+            "numberOfBytes": "32",
+            "value": "t_bool"
+          },
+          "t_mapping(t_bytes32,t_struct(RoleData)34_storage)": {
+            "encoding": "mapping",
+            "key": "t_bytes32",
+            "label": "mapping(bytes32 => struct AccessControlUpgradeable.RoleData)",
+            "numberOfBytes": "32",
+            "value": "t_struct(RoleData)34_storage"
+          },
+          "t_struct(RoleData)34_storage": {
+            "encoding": "inplace",
+            "label": "struct AccessControlUpgradeable.RoleData",
+            "members": [
+              {
+                "astId": 31,
+                "contract": "contracts/PublicSale.sol:PublicSale",
+                "label": "members",
+                "offset": 0,
+                "slot": "0",
+                "type": "t_mapping(t_address,t_bool)"
+              },
+              {
+                "astId": 33,
+                "contract": "contracts/PublicSale.sol:PublicSale",
+                "label": "adminRole",
+                "offset": 0,
+                "slot": "1",
+                "type": "t_bytes32"
+              }
+            ],
+            "numberOfBytes": "64"
+          },
+          "t_uint256": {
+            "encoding": "inplace",
+            "label": "uint256",
+            "numberOfBytes": "32"
+          },
+          "t_uint8": {
+            "encoding": "inplace",
+            "label": "uint8",
+            "numberOfBytes": "1"
+          }
+        }
+      }
+    },
+    "0xCa402Ebc305586cE972A8eF1851f2AD6E1a88012": {
+      "date": "2023-01-29T02:38:25.659Z",
+      "contractName": "MyTokenMiPrimerToken",
+      "fork": "london",
+      "implementationAddress": "0xeD9345EbAFB8FAF3c8614deCb7c3aA5157BeeAbc",
+      "layout": {
+        "storage": [
+          {
+            "astId": 527,
+            "contract": "contracts/MiPrimerToken.sol:MyTokenMiPrimerToken",
+            "label": "_initialized",
+            "offset": 0,
+            "slot": "0",
+            "type": "t_uint8"
+          },
+          {
+            "astId": 530,
+            "contract": "contracts/MiPrimerToken.sol:MyTokenMiPrimerToken",
+            "label": "_initializing",
+            "offset": 1,
+            "slot": "0",
+            "type": "t_bool"
+          },
+          {
+            "astId": 1865,
+            "contract": "contracts/MiPrimerToken.sol:MyTokenMiPrimerToken",
+            "label": "__gap",
+            "offset": 0,
+            "slot": "1",
+            "type": "t_array(t_uint256)50_storage"
+          },
+          {
+            "astId": 844,
+            "contract": "contracts/MiPrimerToken.sol:MyTokenMiPrimerToken",
+            "label": "_balances",
+            "offset": 0,
+            "slot": "51",
+            "type": "t_mapping(t_address,t_uint256)"
+          },
+          {
+            "astId": 850,
+            "contract": "contracts/MiPrimerToken.sol:MyTokenMiPrimerToken",
+            "label": "_allowances",
+            "offset": 0,
+            "slot": "52",
+            "type": "t_mapping(t_address,t_mapping(t_address,t_uint256))"
+          },
+          {
+            "astId": 852,
+            "contract": "contracts/MiPrimerToken.sol:MyTokenMiPrimerToken",
+            "label": "_totalSupply",
+            "offset": 0,
+            "slot": "53",
+            "type": "t_uint256"
+          },
+          {
+            "astId": 854,
+            "contract": "contracts/MiPrimerToken.sol:MyTokenMiPrimerToken",
+            "label": "_name",
+            "offset": 0,
+            "slot": "54",
+            "type": "t_string_storage"
+          },
+          {
+            "astId": 856,
+            "contract": "contracts/MiPrimerToken.sol:MyTokenMiPrimerToken",
+            "label": "_symbol",
+            "offset": 0,
+            "slot": "55",
+            "type": "t_string_storage"
+          },
+          {
+            "astId": 1436,
+            "contract": "contracts/MiPrimerToken.sol:MyTokenMiPrimerToken",
+            "label": "__gap",
+            "offset": 0,
+            "slot": "56",
+            "type": "t_array(t_uint256)45_storage"
+          },
+          {
+            "astId": 10,
+            "contract": "contracts/MiPrimerToken.sol:MyTokenMiPrimerToken",
+            "label": "_owner",
+            "offset": 0,
+            "slot": "101",
+            "type": "t_address"
+          },
+          {
+            "astId": 130,
+            "contract": "contracts/MiPrimerToken.sol:MyTokenMiPrimerToken",
+            "label": "__gap",
+            "offset": 0,
+            "slot": "102",
+            "type": "t_array(t_uint256)49_storage"
+          },
+          {
+            "astId": 509,
+            "contract": "contracts/MiPrimerToken.sol:MyTokenMiPrimerToken",
+            "label": "__gap",
+            "offset": 0,
+            "slot": "151",
+            "type": "t_array(t_uint256)50_storage"
+          },
+          {
+            "astId": 824,
+            "contract": "contracts/MiPrimerToken.sol:MyTokenMiPrimerToken",
+            "label": "__gap",
+            "offset": 0,
+            "slot": "201",
+            "type": "t_array(t_uint256)50_storage"
+          }
+        ],
+        "types": {
+          "t_address": {
+            "encoding": "inplace",
+            "label": "address",
+            "numberOfBytes": "20"
+          },
+          "t_array(t_uint256)45_storage": {
+            "base": "t_uint256",
+            "encoding": "inplace",
+            "label": "uint256[45]",
+            "numberOfBytes": "1440"
+          },
+          "t_array(t_uint256)49_storage": {
+            "base": "t_uint256",
+            "encoding": "inplace",
+            "label": "uint256[49]",
+            "numberOfBytes": "1568"
+          },
+          "t_array(t_uint256)50_storage": {
+            "base": "t_uint256",
+            "encoding": "inplace",
+            "label": "uint256[50]",
+            "numberOfBytes": "1600"
+          },
+          "t_bool": {
+            "encoding": "inplace",
+            "label": "bool",
+            "numberOfBytes": "1"
+          },
+          "t_mapping(t_address,t_mapping(t_address,t_uint256))": {
+            "encoding": "mapping",
+            "key": "t_address",
+            "label": "mapping(address => mapping(address => uint256))",
+            "numberOfBytes": "32",
+            "value": "t_mapping(t_address,t_uint256)"
+          },
+          "t_mapping(t_address,t_uint256)": {
+            "encoding": "mapping",
+            "key": "t_address",
+            "label": "mapping(address => uint256)",
+            "numberOfBytes": "32",
+            "value": "t_uint256"
+          },
+          "t_string_storage": {
+            "encoding": "bytes",
+            "label": "string",
+            "numberOfBytes": "32"
+          },
+          "t_uint256": {
+            "encoding": "inplace",
+            "label": "uint256",
+            "numberOfBytes": "32"
+          },
+          "t_uint8": {
+            "encoding": "inplace",
+            "label": "uint8",
+            "numberOfBytes": "1"
+          }
+        }
+      }
+    },
+    "0x73e99E4E6578F8513aeb41eCAa1fa0AFAa4FAEEB": {
+      "date": "2023-01-29T04:08:03.732Z",
+      "contractName": "PublicSale",
+      "fork": "london",
+      "implementationAddress": "0x700aD8d84Ec3dB4769CBf49896fc8f038C16A7d2",
+      "layout": {
+        "storage": [
+          {
+            "astId": 804,
+            "contract": "contracts/PublicSale.sol:PublicSale",
+            "label": "_initialized",
+            "offset": 0,
+            "slot": "0",
+            "type": "t_uint8"
+          },
+          {
+            "astId": 807,
+            "contract": "contracts/PublicSale.sol:PublicSale",
+            "label": "_initializing",
+            "offset": 1,
+            "slot": "0",
+            "type": "t_bool"
+          },
+          {
+            "astId": 1632,
+            "contract": "contracts/PublicSale.sol:PublicSale",
+            "label": "__gap",
+            "offset": 0,
+            "slot": "1",
+            "type": "t_array(t_uint256)50_storage"
+          },
+          {
+            "astId": 1911,
+            "contract": "contracts/PublicSale.sol:PublicSale",
+            "label": "__gap",
+            "offset": 0,
+            "slot": "51",
+            "type": "t_array(t_uint256)50_storage"
+          },
+          {
+            "astId": 39,
+            "contract": "contracts/PublicSale.sol:PublicSale",
+            "label": "_roles",
+            "offset": 0,
+            "slot": "101",
+            "type": "t_mapping(t_bytes32,t_struct(RoleData)34_storage)"
+          },
+          {
+            "astId": 334,
+            "contract": "contracts/PublicSale.sol:PublicSale",
+            "label": "__gap",
+            "offset": 0,
+            "slot": "102",
+            "type": "t_array(t_uint256)49_storage"
+          },
+          {
+            "astId": 1123,
+            "contract": "contracts/PublicSale.sol:PublicSale",
+            "label": "_paused",
+            "offset": 0,
+            "slot": "151",
+            "type": "t_bool"
+          },
+          {
+            "astId": 1228,
+            "contract": "contracts/PublicSale.sol:PublicSale",
+            "label": "__gap",
+            "offset": 0,
+            "slot": "152",
+            "type": "t_array(t_uint256)49_storage"
+          },
+          {
+            "astId": 786,
+            "contract": "contracts/PublicSale.sol:PublicSale",
+            "label": "__gap",
+            "offset": 0,
+            "slot": "201",
+            "type": "t_array(t_uint256)50_storage"
+          },
+          {
+            "astId": 1101,
+            "contract": "contracts/PublicSale.sol:PublicSale",
+            "label": "__gap",
+            "offset": 0,
+            "slot": "251",
+            "type": "t_array(t_uint256)50_storage"
+          },
+          {
+            "astId": 3692,
+            "contract": "contracts/PublicSale.sol:PublicSale",
+            "label": "_isSoldToken",
+            "offset": 0,
+            "slot": "301",
+            "type": "t_array(t_bool)30_storage"
+          },
+          {
+            "astId": 3694,
+            "contract": "contracts/PublicSale.sol:PublicSale",
+            "label": "_soldTokens",
+            "offset": 0,
+            "slot": "302",
+            "type": "t_uint256"
+          },
+          {
+            "astId": 3697,
+            "contract": "contracts/PublicSale.sol:PublicSale",
+            "label": "miPrimerToken",
+            "offset": 0,
+            "slot": "303",
+            "type": "t_contract(IERC20Upgradeable)1307"
+          },
+          {
+            "astId": 3699,
+            "contract": "contracts/PublicSale.sol:PublicSale",
+            "label": "mprtknAddress",
+            "offset": 0,
+            "slot": "304",
+            "type": "t_address"
+          },
+          {
+            "astId": 3707,
+            "contract": "contracts/PublicSale.sol:PublicSale",
+            "label": "gnosisSafeWallet",
+            "offset": 0,
+            "slot": "305",
+            "type": "t_address"
+          }
+        ],
+        "types": {
+          "t_address": {
+            "encoding": "inplace",
+            "label": "address",
+            "numberOfBytes": "20"
+          },
+          "t_array(t_bool)30_storage": {
+            "base": "t_bool",
+            "encoding": "inplace",
+            "label": "bool[30]",
+            "numberOfBytes": "32"
+          },
+          "t_array(t_uint256)49_storage": {
+            "base": "t_uint256",
+            "encoding": "inplace",
+            "label": "uint256[49]",
+            "numberOfBytes": "1568"
+          },
+          "t_array(t_uint256)50_storage": {
+            "base": "t_uint256",
+            "encoding": "inplace",
+            "label": "uint256[50]",
+            "numberOfBytes": "1600"
+          },
+          "t_bool": {
+            "encoding": "inplace",
+            "label": "bool",
+            "numberOfBytes": "1"
+          },
+          "t_bytes32": {
+            "encoding": "inplace",
+            "label": "bytes32",
+            "numberOfBytes": "32"
+          },
+          "t_contract(IERC20Upgradeable)1307": {
+            "encoding": "inplace",
+            "label": "contract IERC20Upgradeable",
+            "numberOfBytes": "20"
+          },
+          "t_mapping(t_address,t_bool)": {
+            "encoding": "mapping",
+            "key": "t_address",
+            "label": "mapping(address => bool)",
+            "numberOfBytes": "32",
+            "value": "t_bool"
+          },
+          "t_mapping(t_bytes32,t_struct(RoleData)34_storage)": {
+            "encoding": "mapping",
+            "key": "t_bytes32",
+            "label": "mapping(bytes32 => struct AccessControlUpgradeable.RoleData)",
+            "numberOfBytes": "32",
+            "value": "t_struct(RoleData)34_storage"
+          },
+          "t_struct(RoleData)34_storage": {
+            "encoding": "inplace",
+            "label": "struct AccessControlUpgradeable.RoleData",
+            "members": [
+              {
+                "astId": 31,
+                "contract": "contracts/PublicSale.sol:PublicSale",
+                "label": "members",
+                "offset": 0,
+                "slot": "0",
+                "type": "t_mapping(t_address,t_bool)"
+              },
+              {
+                "astId": 33,
+                "contract": "contracts/PublicSale.sol:PublicSale",
+                "label": "adminRole",
+                "offset": 0,
+                "slot": "1",
+                "type": "t_bytes32"
+              }
+            ],
+            "numberOfBytes": "64"
+          },
+          "t_uint256": {
+            "encoding": "inplace",
+            "label": "uint256",
+            "numberOfBytes": "32"
+          },
+          "t_uint8": {
+            "encoding": "inplace",
+            "label": "uint8",
+            "numberOfBytes": "1"
+          }
+        }
+      }
+    }
+  }
+}

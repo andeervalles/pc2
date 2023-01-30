@@ -18,16 +18,20 @@ async function ex(contract, command, args, messageWhenFailed) {
 }
 
 async function verify(implementation, contractName, arguments = []) {
-  if (!process.env.HARDHAT_NETWORK) return;
-  try {
-    await hre.run("verify:verify", {
-      address: implementation,
-      constructorArguments: [...arguments],
-    });
-  } catch (e) {
-    if (e.message.includes("Contract source code already verified"))
-      console.log(`${contractName} is verified already`);
-    else console.error(`Error veryfing - ${contractName}`, e);
+  if (!process.env.HARDHAT_NETWORK) {
+    console.log(`${contractName} can't be verified in Local Hardhat Mode`);
+  }
+  else {
+    try {
+      await hre.run("verify:verify", {
+        address: implementation,
+        constructorArguments: [...arguments],
+      });
+    } catch (e) {
+      if (e.message.includes("Contract source code already verified") || e.message.includes("Already Verified"))
+        console.log(`${contractName} is already verified`);
+      else console.error(`Error veryfing - ${contractName}`, e);
+    }
   }
 }
 
@@ -36,7 +40,7 @@ async function printAddress(contractName, proxyAddress) {
   var implementationAddress = await upgrades.erc1967.getImplementationAddress(
     proxyAddress
   );
-  console.log(`${contractName} Impl Address: ${implementationAddress}`);
+  console.log(`${contractName} Impl. Address: ${implementationAddress}`);
   return implementationAddress;
 }
 
@@ -55,7 +59,7 @@ async function deploySC(contractName, args = []) {
 
 async function deploySCNoUp(contractName, args = []) {
   var SmartContract = await gcf(contractName);
-  var smartContract = await SmartContract.deploy([...args]);
+  var smartContract = await SmartContract.deploy(...args);
 
   // true cuando se usa '--network matic' en el script de deployment
   if (process.env.HARDHAT_NETWORK) {

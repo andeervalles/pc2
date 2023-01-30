@@ -1,0 +1,32 @@
+{
+  "name": "Cuy Moche NFT LEGENDARIO #21",
+  "description": "NFT MOCHE collection by Pachacuy.io inspired by the fertility huacos of the Peruvian Moche culture",
+  "image": "ipfs://QmUgrq82ET5y6odKUB1Q5HxzGTNdbkkqWNpf3kbsnTVR1z/21.png",
+  "edition": 21,
+  "attributes": [
+    {
+      "trait_type": "MANTO",
+      "value": "MANTO FUEGO"
+    },
+    {
+      "trait_type": "BANCO",
+      "value": "ROCA"
+    },
+    {
+      "trait_type": "CUY",
+      "value": "CUY HUACO"
+    },
+    {
+      "trait_type": "CHULLO",
+      "value": "CHULLO ROJO"
+    },
+    {
+      "trait_type": "CARA",
+      "value": "BROMA"
+    },
+    {
+      "trait_type": "GRUPO",
+      "value": "LEGENDARIO"
+    }
+  ]
+}

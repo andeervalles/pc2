@@ -1,0 +1,962 @@
+[
+  {
+    "name": "Cuy Moche NFT COMUN #1",
+    "description": "NFT MOCHE collection by Pachacuy.io inspired by the fertility huacos of the Peruvian Moche culture",
+    "image": "ipfs://QmUgrq82ET5y6odKUB1Q5HxzGTNdbkkqWNpf3kbsnTVR1z/1.png",
+    "edition": 1,
+    "attributes": [
+      {
+        "trait_type": "MANTO",
+        "value": "MANTO COSTA"
+      },
+      {
+        "trait_type": "BANCO",
+        "value": "TRONCO"
+      },
+      {
+        "trait_type": "CUY",
+        "value": "CUY HUACO"
+      },
+      {
+        "trait_type": "CHULLO",
+        "value": "CHULLO TURISTA"
+      },
+      {
+        "trait_type": "CARA",
+        "value": "OJOS BASE"
+      },
+      {
+        "trait_type": "GRUPO",
+        "value": "COMUN"
+      }
+    ]
+  },
+  {
+    "name": "Cuy Moche NFT COMUN #2",
+    "description": "NFT MOCHE collection by Pachacuy.io inspired by the fertility huacos of the Peruvian Moche culture",
+    "image": "ipfs://QmUgrq82ET5y6odKUB1Q5HxzGTNdbkkqWNpf3kbsnTVR1z/2.png",
+    "edition": 2,
+    "attributes": [
+      {
+        "trait_type": "MANTO",
+        "value": "MANTO ALIEN"
+      },
+      {
+        "trait_type": "BANCO",
+        "value": "HIELO"
+      },
+      {
+        "trait_type": "CUY",
+        "value": "CUY MARRON"
+      },
+      {
+        "trait_type": "CHULLO",
+        "value": "CHULLO ROJO"
+      },
+      {
+        "trait_type": "CARA",
+        "value": "LASER"
+      },
+      {
+        "trait_type": "GRUPO",
+        "value": "COMUN"
+      }
+    ]
+  },
+  {
+    "name": "Cuy Moche NFT COMUN #3",
+    "description": "NFT MOCHE collection by Pachacuy.io inspired by the fertility huacos of the Peruvian Moche culture",
+    "image": "ipfs://QmUgrq82ET5y6odKUB1Q5HxzGTNdbkkqWNpf3kbsnTVR1z/3.png",
+    "edition": 3,
+    "attributes": [
+      {
+        "trait_type": "MANTO",
+        "value": "METAVERSO"
+      },
+      {
+        "trait_type": "BANCO",
+        "value": "AMOR"
+      },
+      {
+        "trait_type": "CUY",
+        "value": "CUY ALIEN"
+      },
+      {
+        "trait_type": "CHULLO",
+        "value": "CHULLO PESCADOR"
+      },
+      {
+        "trait_type": "CARA",
+        "value": "LENTES"
+      },
+      {
+        "trait_type": "GRUPO",
+        "value": "COMUN"
+      }
+    ]
+  },
+  {
+    "name": "Cuy Moche NFT COMUN #4",
+    "description": "NFT MOCHE collection by Pachacuy.io inspired by the fertility huacos of the Peruvian Moche culture",
+    "image": "ipfs://QmUgrq82ET5y6odKUB1Q5HxzGTNdbkkqWNpf3kbsnTVR1z/4.png",
+    "edition": 4,
+    "attributes": [
+      {
+        "trait_type": "MANTO",
+        "value": "MANTO COSTA"
+      },
+      {
+        "trait_type": "BANCO",
+        "value": "EGIPCIO"
+      },
+      {
+        "trait_type": "CUY",
+        "value": "CUY HIELO"
+      },
+      {
+        "trait_type": "CHULLO",
+        "value": "GORRO PACHACUY"
+      },
+      {
+        "trait_type": "CARA",
+        "value": "OJOS BASE"
+      },
+      {
+        "trait_type": "GRUPO",
+        "value": "COMUN"
+      }
+    ]
+  },
+  {
+    "name": "Cuy Moche NFT COMUN #5",
+    "description": "NFT MOCHE collection by Pachacuy.io inspired by the fertility huacos of the Peruvian Moche culture",
+    "image": "ipfs://QmUgrq82ET5y6odKUB1Q5HxzGTNdbkkqWNpf3kbsnTVR1z/5.png",
+    "edition": 5,
+    "attributes": [
+      {
+        "trait_type": "MANTO",
+        "value": "MANTO TIERRA"
+      },
+      {
+        "trait_type": "BANCO",
+        "value": "TRONCO"
+      },
+      {
+        "trait_type": "CUY",
+        "value": "CUY ROSA"
+      },
+      {
+        "trait_type": "CHULLO",
+        "value": "CHULLO PERU"
+      },
+      {
+        "trait_type": "CARA",
+        "value": "LENTES"
+      },
+      {
+        "trait_type": "GRUPO",
+        "value": "COMUN"
+      }
+    ]
+  },
+  {
+    "name": "Cuy Moche NFT COMUN #6",
+    "description": "NFT MOCHE collection by Pachacuy.io inspired by the fertility huacos of the Peruvian Moche culture",
+    "image": "ipfs://QmUgrq82ET5y6odKUB1Q5HxzGTNdbkkqWNpf3kbsnTVR1z/6.png",
+    "edition": 6,
+    "attributes": [
+      {
+        "trait_type": "MANTO",
+        "value": "MANTO NASCA"
+      },
+      {
+        "trait_type": "BANCO",
+        "value": "HUACO"
+      },
+      {
+        "trait_type": "CUY",
+        "value": "CUY MARRON"
+      },
+      {
+        "trait_type": "CHULLO",
+        "value": "FORASTERO"
+      },
+      {
+        "trait_type": "CARA",
+        "value": "OJOS BASE"
+      },
+      {
+        "trait_type": "GRUPO",
+        "value": "COMUN"
+      }
+    ]
+  },
+  {
+    "name": "Cuy Moche NFT COMUN #7",
+    "description": "NFT MOCHE collection by Pachacuy.io inspired by the fertility huacos of the Peruvian Moche culture",
+    "image": "ipfs://QmUgrq82ET5y6odKUB1Q5HxzGTNdbkkqWNpf3kbsnTVR1z/7.png",
+    "edition": 7,
+    "attributes": [
+      {
+        "trait_type": "MANTO",
+        "value": "MANTO ALIEN"
+      },
+      {
+        "trait_type": "BANCO",
+        "value": "EGIPCIO"
+      },
+      {
+        "trait_type": "CUY",
+        "value": "CUY MARRON"
+      },
+      {
+        "trait_type": "CHULLO",
+        "value": "GANGSTER"
+      },
+      {
+        "trait_type": "CARA",
+        "value": "OJOS BASE"
+      },
+      {
+        "trait_type": "GRUPO",
+        "value": "COMUN"
+      }
+    ]
+  },
+  {
+    "name": "Cuy Moche NFT COMUN #8",
+    "description": "NFT MOCHE collection by Pachacuy.io inspired by the fertility huacos of the Peruvian Moche culture",
+    "image": "ipfs://QmUgrq82ET5y6odKUB1Q5HxzGTNdbkkqWNpf3kbsnTVR1z/8.png",
+    "edition": 8,
+    "attributes": [
+      {
+        "trait_type": "MANTO",
+        "value": "MANTO ALIEN"
+      },
+      {
+        "trait_type": "BANCO",
+        "value": "GRIEGO"
+      },
+      {
+        "trait_type": "CUY",
+        "value": "CUY FUEGO"
+      },
+      {
+        "trait_type": "CHULLO",
+        "value": "CHULLO PERU"
+      },
+      {
+        "trait_type": "CARA",
+        "value": "LENTES"
+      },
+      {
+        "trait_type": "GRUPO",
+        "value": "COMUN"
+      }
+    ]
+  },
+  {
+    "name": "Cuy Moche NFT COMUN #9",
+    "description": "NFT MOCHE collection by Pachacuy.io inspired by the fertility huacos of the Peruvian Moche culture",
+    "image": "ipfs://QmUgrq82ET5y6odKUB1Q5HxzGTNdbkkqWNpf3kbsnTVR1z/9.png",
+    "edition": 9,
+    "attributes": [
+      {
+        "trait_type": "MANTO",
+        "value": "MANTO NASCA"
+      },
+      {
+        "trait_type": "BANCO",
+        "value": "AMOR"
+      },
+      {
+        "trait_type": "CUY",
+        "value": "CUY HUACO"
+      },
+      {
+        "trait_type": "CHULLO",
+        "value": "CHULLO CUSCO"
+      },
+      {
+        "trait_type": "CARA",
+        "value": "BROMA"
+      },
+      {
+        "trait_type": "GRUPO",
+        "value": "COMUN"
+      }
+    ]
+  },
+  {
+    "name": "Cuy Moche NFT COMUN #10",
+    "description": "NFT MOCHE collection by Pachacuy.io inspired by the fertility huacos of the Peruvian Moche culture",
+    "image": "ipfs://QmUgrq82ET5y6odKUB1Q5HxzGTNdbkkqWNpf3kbsnTVR1z/10.png",
+    "edition": 10,
+    "attributes": [
+      {
+        "trait_type": "MANTO",
+        "value": "MANTO MARINO"
+      },
+      {
+        "trait_type": "BANCO",
+        "value": "HUACO"
+      },
+      {
+        "trait_type": "CUY",
+        "value": "CUY FUEGO"
+      },
+      {
+        "trait_type": "CHULLO",
+        "value": "INCA"
+      },
+      {
+        "trait_type": "CARA",
+        "value": "OJOS BASE"
+      },
+      {
+        "trait_type": "GRUPO",
+        "value": "COMUN"
+      }
+    ]
+  },
+  {
+    "name": "Cuy Moche NFT RARO #11",
+    "description": "NFT MOCHE collection by Pachacuy.io inspired by the fertility huacos of the Peruvian Moche culture",
+    "image": "ipfs://QmUgrq82ET5y6odKUB1Q5HxzGTNdbkkqWNpf3kbsnTVR1z/11.png",
+    "edition": 11,
+    "attributes": [
+      {
+        "trait_type": "MANTO",
+        "value": "MANTO FELICIDAD"
+      },
+      {
+        "trait_type": "BANCO",
+        "value": "HIELO"
+      },
+      {
+        "trait_type": "CUY",
+        "value": "CUY FUEGO"
+      },
+      {
+        "trait_type": "CHULLO",
+        "value": "GANGSTER"
+      },
+      {
+        "trait_type": "CARA",
+        "value": "OJOS BASE"
+      },
+      {
+        "trait_type": "GRUPO",
+        "value": "RARO"
+      }
+    ]
+  },
+  {
+    "name": "Cuy Moche NFT RARO #12",
+    "description": "NFT MOCHE collection by Pachacuy.io inspired by the fertility huacos of the Peruvian Moche culture",
+    "image": "ipfs://QmUgrq82ET5y6odKUB1Q5HxzGTNdbkkqWNpf3kbsnTVR1z/12.png",
+    "edition": 12,
+    "attributes": [
+      {
+        "trait_type": "MANTO",
+        "value": "MANTO COSTA"
+      },
+      {
+        "trait_type": "BANCO",
+        "value": "METAL"
+      },
+      {
+        "trait_type": "CUY",
+        "value": "CUY PLATA"
+      },
+      {
+        "trait_type": "CHULLO",
+        "value": "CHULLO ROJO"
+      },
+      {
+        "trait_type": "CARA",
+        "value": "BROMA"
+      },
+      {
+        "trait_type": "GRUPO",
+        "value": "RARO"
+      }
+    ]
+  },
+  {
+    "name": "Cuy Moche NFT RARO #13",
+    "description": "NFT MOCHE collection by Pachacuy.io inspired by the fertility huacos of the Peruvian Moche culture",
+    "image": "ipfs://QmUgrq82ET5y6odKUB1Q5HxzGTNdbkkqWNpf3kbsnTVR1z/13.png",
+    "edition": 13,
+    "attributes": [
+      {
+        "trait_type": "MANTO",
+        "value": "MANTO FUEGO"
+      },
+      {
+        "trait_type": "BANCO",
+        "value": "HUACO"
+      },
+      {
+        "trait_type": "CUY",
+        "value": "CUY MARRON"
+      },
+      {
+        "trait_type": "CHULLO",
+        "value": "CHULLO CAJAMARCA"
+      },
+      {
+        "trait_type": "CARA",
+        "value": "COVID"
+      },
+      {
+        "trait_type": "GRUPO",
+        "value": "RARO"
+      }
+    ]
+  },
+  {
+    "name": "Cuy Moche NFT RARO #14",
+    "description": "NFT MOCHE collection by Pachacuy.io inspired by the fertility huacos of the Peruvian Moche culture",
+    "image": "ipfs://QmUgrq82ET5y6odKUB1Q5HxzGTNdbkkqWNpf3kbsnTVR1z/14.png",
+    "edition": 14,
+    "attributes": [
+      {
+        "trait_type": "MANTO",
+        "value": "MANTO FUEGO"
+      },
+      {
+        "trait_type": "BANCO",
+        "value": "HIELO"
+      },
+      {
+        "trait_type": "CUY",
+        "value": "CUY MARRON"
+      },
+      {
+        "trait_type": "CHULLO",
+        "value": "CHULLO MORADO"
+      },
+      {
+        "trait_type": "CARA",
+        "value": "OJOS BASE"
+      },
+      {
+        "trait_type": "GRUPO",
+        "value": "RARO"
+      }
+    ]
+  },
+  {
+    "name": "Cuy Moche NFT RARO #15",
+    "description": "NFT MOCHE collection by Pachacuy.io inspired by the fertility huacos of the Peruvian Moche culture",
+    "image": "ipfs://QmUgrq82ET5y6odKUB1Q5HxzGTNdbkkqWNpf3kbsnTVR1z/15.png",
+    "edition": 15,
+    "attributes": [
+      {
+        "trait_type": "MANTO",
+        "value": "MANTO MARINO"
+      },
+      {
+        "trait_type": "BANCO",
+        "value": "METAL"
+      },
+      {
+        "trait_type": "CUY",
+        "value": "CUY PLATA"
+      },
+      {
+        "trait_type": "CHULLO",
+        "value": "CHULLO PESCADOR"
+      },
+      {
+        "trait_type": "CARA",
+        "value": "OJOS BASE"
+      },
+      {
+        "trait_type": "GRUPO",
+        "value": "RARO"
+      }
+    ]
+  },
+  {
+    "name": "Cuy Moche NFT RARO #16",
+    "description": "NFT MOCHE collection by Pachacuy.io inspired by the fertility huacos of the Peruvian Moche culture",
+    "image": "ipfs://QmUgrq82ET5y6odKUB1Q5HxzGTNdbkkqWNpf3kbsnTVR1z/16.png",
+    "edition": 16,
+    "attributes": [
+      {
+        "trait_type": "MANTO",
+        "value": "MANTO MOCHE"
+      },
+      {
+        "trait_type": "BANCO",
+        "value": "METAL"
+      },
+      {
+        "trait_type": "CUY",
+        "value": "CUY MARRON"
+      },
+      {
+        "trait_type": "CHULLO",
+        "value": "CHULLO PERU"
+      },
+      {
+        "trait_type": "CARA",
+        "value": "CYCLOP"
+      },
+      {
+        "trait_type": "GRUPO",
+        "value": "RARO"
+      }
+    ]
+  },
+  {
+    "name": "Cuy Moche NFT RARO #17",
+    "description": "NFT MOCHE collection by Pachacuy.io inspired by the fertility huacos of the Peruvian Moche culture",
+    "image": "ipfs://QmUgrq82ET5y6odKUB1Q5HxzGTNdbkkqWNpf3kbsnTVR1z/17.png",
+    "edition": 17,
+    "attributes": [
+      {
+        "trait_type": "MANTO",
+        "value": "MANTO FELICIDAD"
+      },
+      {
+        "trait_type": "BANCO",
+        "value": "HIELO"
+      },
+      {
+        "trait_type": "CUY",
+        "value": "CUY CEMENTO"
+      },
+      {
+        "trait_type": "CHULLO",
+        "value": "CHULLO SELVA"
+      },
+      {
+        "trait_type": "CARA",
+        "value": "LASER"
+      },
+      {
+        "trait_type": "GRUPO",
+        "value": "RARO"
+      }
+    ]
+  },
+  {
+    "name": "Cuy Moche NFT RARO #18",
+    "description": "NFT MOCHE collection by Pachacuy.io inspired by the fertility huacos of the Peruvian Moche culture",
+    "image": "ipfs://QmUgrq82ET5y6odKUB1Q5HxzGTNdbkkqWNpf3kbsnTVR1z/18.png",
+    "edition": 18,
+    "attributes": [
+      {
+        "trait_type": "MANTO",
+        "value": "MANTO FUEGO"
+      },
+      {
+        "trait_type": "BANCO",
+        "value": "TRONCO"
+      },
+      {
+        "trait_type": "CUY",
+        "value": "CUY HUACO"
+      },
+      {
+        "trait_type": "CHULLO",
+        "value": "CHULLO ROJO"
+      },
+      {
+        "trait_type": "CARA",
+        "value": "RAVE"
+      },
+      {
+        "trait_type": "GRUPO",
+        "value": "RARO"
+      }
+    ]
+  },
+  {
+    "name": "Cuy Moche NFT RARO #19",
+    "description": "NFT MOCHE collection by Pachacuy.io inspired by the fertility huacos of the Peruvian Moche culture",
+    "image": "ipfs://QmUgrq82ET5y6odKUB1Q5HxzGTNdbkkqWNpf3kbsnTVR1z/19.png",
+    "edition": 19,
+    "attributes": [
+      {
+        "trait_type": "MANTO",
+        "value": "MANTO TIERRA"
+      },
+      {
+        "trait_type": "BANCO",
+        "value": "HUACO"
+      },
+      {
+        "trait_type": "CUY",
+        "value": "CUY HUACO"
+      },
+      {
+        "trait_type": "CHULLO",
+        "value": "CHULLO PERU"
+      },
+      {
+        "trait_type": "CARA",
+        "value": "OJOS BASE"
+      },
+      {
+        "trait_type": "GRUPO",
+        "value": "RARO"
+      }
+    ]
+  },
+  {
+    "name": "Cuy Moche NFT RARO #20",
+    "description": "NFT MOCHE collection by Pachacuy.io inspired by the fertility huacos of the Peruvian Moche culture",
+    "image": "ipfs://QmUgrq82ET5y6odKUB1Q5HxzGTNdbkkqWNpf3kbsnTVR1z/20.png",
+    "edition": 20,
+    "attributes": [
+      {
+        "trait_type": "MANTO",
+        "value": "MANTO MARINO"
+      },
+      {
+        "trait_type": "BANCO",
+        "value": "EGIPCIO"
+      },
+      {
+        "trait_type": "CUY",
+        "value": "CUY HIELO"
+      },
+      {
+        "trait_type": "CHULLO",
+        "value": "FORASTERO"
+      },
+      {
+        "trait_type": "CARA",
+        "value": "OJOS BASE"
+      },
+      {
+        "trait_type": "GRUPO",
+        "value": "RARO"
+      }
+    ]
+  },
+  {
+    "name": "Cuy Moche NFT LEGENDARIO #21",
+    "description": "NFT MOCHE collection by Pachacuy.io inspired by the fertility huacos of the Peruvian Moche culture",
+    "image": "ipfs://QmUgrq82ET5y6odKUB1Q5HxzGTNdbkkqWNpf3kbsnTVR1z/21.png",
+    "edition": 21,
+    "attributes": [
+      {
+        "trait_type": "MANTO",
+        "value": "MANTO FUEGO"
+      },
+      {
+        "trait_type": "BANCO",
+        "value": "ROCA"
+      },
+      {
+        "trait_type": "CUY",
+        "value": "CUY HUACO"
+      },
+      {
+        "trait_type": "CHULLO",
+        "value": "CHULLO ROJO"
+      },
+      {
+        "trait_type": "CARA",
+        "value": "BROMA"
+      },
+      {
+        "trait_type": "GRUPO",
+        "value": "LEGENDARIO"
+      }
+    ]
+  },
+  {
+    "name": "Cuy Moche NFT LEGENDARIO #22",
+    "description": "NFT MOCHE collection by Pachacuy.io inspired by the fertility huacos of the Peruvian Moche culture",
+    "image": "ipfs://QmUgrq82ET5y6odKUB1Q5HxzGTNdbkkqWNpf3kbsnTVR1z/22.png",
+    "edition": 22,
+    "attributes": [
+      {
+        "trait_type": "MANTO",
+        "value": "MANTO NASCA"
+      },
+      {
+        "trait_type": "BANCO",
+        "value": "HUACO"
+      },
+      {
+        "trait_type": "CUY",
+        "value": "CUY PLATA"
+      },
+      {
+        "trait_type": "CHULLO",
+        "value": "FORASTERO"
+      },
+      {
+        "trait_type": "CARA",
+        "value": "COVID"
+      },
+      {
+        "trait_type": "GRUPO",
+        "value": "LEGENDARIO"
+      }
+    ]
+  },
+  {
+    "name": "Cuy Moche NFT LEGENDARIO #23",
+    "description": "NFT MOCHE collection by Pachacuy.io inspired by the fertility huacos of the Peruvian Moche culture",
+    "image": "ipfs://QmUgrq82ET5y6odKUB1Q5HxzGTNdbkkqWNpf3kbsnTVR1z/23.png",
+    "edition": 23,
+    "attributes": [
+      {
+        "trait_type": "MANTO",
+        "value": "MANTO MOCHE"
+      },
+      {
+        "trait_type": "BANCO",
+        "value": "EGIPCIO"
+      },
+      {
+        "trait_type": "CUY",
+        "value": "CUY ALIEN"
+      },
+      {
+        "trait_type": "CHULLO",
+        "value": "CHULLO PESCADOR"
+      },
+      {
+        "trait_type": "CARA",
+        "value": "COVID"
+      },
+      {
+        "trait_type": "GRUPO",
+        "value": "LEGENDARIO"
+      }
+    ]
+  },
+  {
+    "name": "Cuy Moche NFT LEGENDARIO #24",
+    "description": "NFT MOCHE collection by Pachacuy.io inspired by the fertility huacos of the Peruvian Moche culture",
+    "image": "ipfs://QmUgrq82ET5y6odKUB1Q5HxzGTNdbkkqWNpf3kbsnTVR1z/24.png",
+    "edition": 24,
+    "attributes": [
+      {
+        "trait_type": "MANTO",
+        "value": "MANTO COSTA"
+      },
+      {
+        "trait_type": "BANCO",
+        "value": "HUACO"
+      },
+      {
+        "trait_type": "CUY",
+        "value": "CUY CEMENTO"
+      },
+      {
+        "trait_type": "CHULLO",
+        "value": "INCA"
+      },
+      {
+        "trait_type": "CARA",
+        "value": "LENTES"
+      },
+      {
+        "trait_type": "GRUPO",
+        "value": "LEGENDARIO"
+      }
+    ]
+  },
+  {
+    "name": "Cuy Moche NFT LEGENDARIO #25",
+    "description": "NFT MOCHE collection by Pachacuy.io inspired by the fertility huacos of the Peruvian Moche culture",
+    "image": "ipfs://QmUgrq82ET5y6odKUB1Q5HxzGTNdbkkqWNpf3kbsnTVR1z/25.png",
+    "edition": 25,
+    "attributes": [
+      {
+        "trait_type": "MANTO",
+        "value": "MANTO SIERRA"
+      },
+      {
+        "trait_type": "BANCO",
+        "value": "TRONCO"
+      },
+      {
+        "trait_type": "CUY",
+        "value": "CUY ROSA"
+      },
+      {
+        "trait_type": "CHULLO",
+        "value": "GANGSTER"
+      },
+      {
+        "trait_type": "CARA",
+        "value": "OJOS BASE"
+      },
+      {
+        "trait_type": "GRUPO",
+        "value": "LEGENDARIO"
+      }
+    ]
+  },
+  {
+    "name": "Cuy Moche NFT LEGENDARIO #26",
+    "description": "NFT MOCHE collection by Pachacuy.io inspired by the fertility huacos of the Peruvian Moche culture",
+    "image": "ipfs://QmUgrq82ET5y6odKUB1Q5HxzGTNdbkkqWNpf3kbsnTVR1z/26.png",
+    "edition": 26,
+    "attributes": [
+      {
+        "trait_type": "MANTO",
+        "value": "MANTO NASCA"
+      },
+      {
+        "trait_type": "BANCO",
+        "value": "TRONCO"
+      },
+      {
+        "trait_type": "CUY",
+        "value": "CUY HIELO"
+      },
+      {
+        "trait_type": "CHULLO",
+        "value": "FORASTERO"
+      },
+      {
+        "trait_type": "CARA",
+        "value": "LENTES"
+      },
+      {
+        "trait_type": "GRUPO",
+        "value": "LEGENDARIO"
+      }
+    ]
+  },
+  {
+    "name": "Cuy Moche NFT LEGENDARIO #27",
+    "description": "NFT MOCHE collection by Pachacuy.io inspired by the fertility huacos of the Peruvian Moche culture",
+    "image": "ipfs://QmUgrq82ET5y6odKUB1Q5HxzGTNdbkkqWNpf3kbsnTVR1z/27.png",
+    "edition": 27,
+    "attributes": [
+      {
+        "trait_type": "MANTO",
+        "value": "MANTO FELICIDAD"
+      },
+      {
+        "trait_type": "BANCO",
+        "value": "TRONCO"
+      },
+      {
+        "trait_type": "CUY",
+        "value": "CUY ORO"
+      },
+      {
+        "trait_type": "CHULLO",
+        "value": "INCA"
+      },
+      {
+        "trait_type": "CARA",
+        "value": "RAVE"
+      },
+      {
+        "trait_type": "GRUPO",
+        "value": "LEGENDARIO"
+      }
+    ]
+  },
+  {
+    "name": "Cuy Moche NFT LEGENDARIO #28",
+    "description": "NFT MOCHE collection by Pachacuy.io inspired by the fertility huacos of the Peruvian Moche culture",
+    "image": "ipfs://QmUgrq82ET5y6odKUB1Q5HxzGTNdbkkqWNpf3kbsnTVR1z/28.png",
+    "edition": 28,
+    "attributes": [
+      {
+        "trait_type": "MANTO",
+        "value": "MANTO TIERRA"
+      },
+      {
+        "trait_type": "BANCO",
+        "value": "TRONCO"
+      },
+      {
+        "trait_type": "CUY",
+        "value": "CUY MANDINGO"
+      },
+      {
+        "trait_type": "CHULLO",
+        "value": "CHULLO CUSCO"
+      },
+      {
+        "trait_type": "CARA",
+        "value": "LENTES"
+      },
+      {
+        "trait_type": "GRUPO",
+        "value": "LEGENDARIO"
+      }
+    ]
+  },
+  {
+    "name": "Cuy Moche NFT LEGENDARIO #29",
+    "description": "NFT MOCHE collection by Pachacuy.io inspired by the fertility huacos of the Peruvian Moche culture",
+    "image": "ipfs://QmUgrq82ET5y6odKUB1Q5HxzGTNdbkkqWNpf3kbsnTVR1z/29.png",
+    "edition": 29,
+    "attributes": [
+      {
+        "trait_type": "MANTO",
+        "value": "MANTO COSTA"
+      },
+      {
+        "trait_type": "BANCO",
+        "value": "EGIPCIO"
+      },
+      {
+        "trait_type": "CUY",
+        "value": "CUY HIELO"
+      },
+      {
+        "trait_type": "CHULLO",
+        "value": "CHULLO TURISTA"
+      },
+      {
+        "trait_type": "CARA",
+        "value": "OJOS BASE"
+      },
+      {
+        "trait_type": "GRUPO",
+        "value": "LEGENDARIO"
+      }
+    ]
+  },
+  {
+    "name": "Cuy Moche NFT LEGENDARIO #30",
+    "description": "NFT MOCHE collection by Pachacuy.io inspired by the fertility huacos of the Peruvian Moche culture",
+    "image": "ipfs://QmUgrq82ET5y6odKUB1Q5HxzGTNdbkkqWNpf3kbsnTVR1z/30.png",
+    "edition": 30,
+    "attributes": [
+      {
+        "trait_type": "MANTO",
+        "value": "MANTO MARINO"
+      },
+      {
+        "trait_type": "BANCO",
+        "value": "HUACO"
+      },
+      {
+        "trait_type": "CUY",
+        "value": "CUY MARRON"
+      },
+      {
+        "trait_type": "CHULLO",
+        "value": "FORASTERO"
+      },
+      {
+        "trait_type": "CARA",
+        "value": "OJOS BASE"
+      },
+      {
+        "trait_type": "GRUPO",
+        "value": "LEGENDARIO"
+      }
+    ]
+  }
+]
