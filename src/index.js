@@ -219,7 +219,7 @@ function setUpEventsContracts() {
   // nftTknContract.on
   nftTknContract.on ("Transfer",(from,to,tokenId)=>{
     document.getElementById("nftList")
-      .innerHTML+=`<div>Transfer from: ${from} to: ${to} Token: ${tokenId}</div>`;
+      .innerHTML=`<div>Transfer from: ${from} to: ${to} Token: ${tokenId}</div>`+document.getElementById("nftList").innerHTML;
   })
 }
 
