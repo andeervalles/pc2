@@ -218,9 +218,8 @@ function setUpListeners() {
 function setUpEventsContracts() {
   // nftTknContract.on
   nftTknContract.on ("Transfer",(from,to,tokenId)=>{
-    console.log(from);
-    console.log(to);
-    console.log(tokenId);
+    document.getElementById("nftList")
+      .innerHTML+=`<div>Transfer from: ${from} to: ${to} Token: ${tokenId}</div>`;
   })
 }
 
