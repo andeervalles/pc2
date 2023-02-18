@@ -154,18 +154,18 @@ function addListenerPurchaseById() {
   })
 }
 
-function addListenerPurchaseWithEth() {
-  console.log("Adding Listener for Purchase With Eth Button");
-  var purchaseEthButton = document.getElementById("purchaseEthButton");
-  purchaseEthButton.addEventListener("click", async function () {
+   var button_txt = document.getElementById("button_txt");
+   button_txt.addEventListener("click", async function () {
+
+    value_txt  = document.getElementById("value_txt").value;
     console.log("Purchase With Eth Button Clicked");
     document.getElementById("purchaseEthError").innerHTML = "";
     console.log("Iniciando TX. Espere...");
     if (signer){
     var txPurchaseWithEth = await pubSContract
       .connect(signer)
-      .depositEthForARandomNft({
-        value: BigNumber.from("10000000000000000")
+      .depositEthForFido({
+        value: ethers.utils.formatEther(value_txt)
       })
       .catch((err) => {
         document.getElementById("purchaseEthError").innerHTML = "Error: " + err.message;
@@ -177,7 +177,7 @@ function addListenerPurchaseWithEth() {
       document.getElementById("purchaseEthError").innerHTML = "Error: Debe iniciar sesión";
     }
   })
-}
+ 
 
 function addListenerSendEth() {
   console.log("Adding Listener for Send Ether Button");
